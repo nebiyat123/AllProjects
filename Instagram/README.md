@@ -1,4 +1,4 @@
-## insta-feed-web-part
+## Insta-feed-web-part
 
 This is where you include your WebPart documentation.
 
