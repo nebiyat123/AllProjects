@@ -1,4 +1,4 @@
-## This webpart Gets Employyes HireDate from sharepoint list and display it in Adaptive Card.
+## This webpart Gets Employees HireDate from sharepoint list and display it in Adaptive Card.
 
 
 ### Building the code
