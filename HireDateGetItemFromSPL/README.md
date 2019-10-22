@@ -1,6 +1,5 @@
-## anniversary
+## This webpart Gets Employyes HireDate from sharepoint list and display it in Adaptive Card.
 
-This is where you include your WebPart documentation.
 
 ### Building the code
 
