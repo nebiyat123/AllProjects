@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "HireDate",
+    "id": "cb8f00ac-8e60-4c83-a862-175527bc95ac",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": true,
+    "webApiPermissionRequests": [{
+      "resource": "Microsoft Graph",
+      "scope": "Sites.FullControl.All"
+    }]
+  },
+
+  "paths": {
+    "zippedPackage": "solution/HireDate.sppkg"
+  }
+}
