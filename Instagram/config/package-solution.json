@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "insta-feed-web-part-client-side-solution",
+    "id": "21bd3d6f-07d7-4437-903e-a4d4e3933e2e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/insta-feed-web-part.sppkg"
+  }
+}

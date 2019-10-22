@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "insta-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/instaFeed/InstaFeedWebPart.js",
+          "manifest": "./src/webparts/instaFeed/InstaFeedWebPart.manifest.json"
+        }
+      ]
+    },
+    "insta-foundation-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/instaFoundationFeed/InstaFoundationFeedWebPart.js",
+          "manifest": "./src/webparts/instaFoundationFeed/InstaFoundationFeedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+      "globalName": "jquery"
+    }
+  },
+  "localizedResources": {
+    "InstaFeedWebPartStrings": "lib/webparts/instaFeed/loc/{locale}.js",
+    "InstaFoundationFeedWebPartStrings": "lib/webparts/instaFoundationFeed/loc/{locale}.js"
+  }
+}
