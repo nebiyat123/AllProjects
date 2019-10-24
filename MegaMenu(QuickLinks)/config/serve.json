@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4567,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://newwavetechnologies.sharepoint.com/sites/NWTDemo/SitePages/Anniversaries(2).aspx",
+      "customActions": {
+        "6a4a81ba-4704-463b-98eb-1d1bfa710744": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "reactMegaMenu": {
+      "pageUrl": "https://newwavetechnologies.sharepoint.com/sites/NWTDemo/SitePages/Anniversaries(2).aspx",
+      "customActions": {
+        "6a4a81ba-4704-463b-98eb-1d1bfa710744": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
