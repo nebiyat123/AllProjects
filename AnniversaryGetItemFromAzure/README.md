@@ -1,6 +1,6 @@
 ## anniversary
 
-This is where you include your WebPart documentation.
+This is anniversary webpart which will get the data from Azure AD.
 
 ### Building the code
 
