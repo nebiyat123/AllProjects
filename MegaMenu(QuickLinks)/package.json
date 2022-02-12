@@ -34,7 +34,7 @@
     "@types/enzyme": "2.8.11",
     "@types/mocha": "2.2.38",
     "@types/sinon": "1.16.36",
-    "ajv": "5.2.2",
+    "ajv": "6.12.3",
     "chai-enzyme": "0.8.0",
     "enzyme": "2.8.0",
     "gulp": "~3.9.1",
